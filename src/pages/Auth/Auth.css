@@ -26,7 +26,7 @@
 
 .Webname > h1 {
     font-size: 3rem;
-    background-color: red;
+    background-color: rgba(186, 21, 252, 0.87);
 
          /* create gradient */
     background-image: var(--buttonBg);

@@ -32,7 +32,7 @@ const PostShare = () => {
         onClick={() => imageRef.current.click()}
         >
             <UilScenery/>
-            Photo
+            Foto
         </div>
         <div className="option"
         style={{color: "var(--video)"}}        
@@ -44,16 +44,16 @@ const PostShare = () => {
         style={{color: "var(--location)"}}
         >
             <UilLocationPoint/>
-            Location
+            Ubicación
         </div>{" "}
         <div className="option"
         style={{color: "var(--shedule)"}}
         >
             <UilSchedule/>
-            Schedule
+            Fecha
         </div>
         <button className='button ps-button'>
-            Share
+            Compartir
         </button>
         <div style={{display: 'none'}}>
             <input type="file" name='myImage' ref={imageRef} onChange={onImageChange}/>
